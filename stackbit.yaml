@@ -297,46 +297,6 @@ models:
         options:
           - label: services
             value: services
-  team:
-    type: page
-    label: Team
-    folder: _team
-    fields:
-      - type: string
-        name: title
-        label: Title
-      - type: date
-        name: date
-        label: Date
-      - type: image
-        name: image
-        label: Image
-      - type: string
-        name: jobtitle
-        label: Job Title
-      - type: string
-        name: linkedinurl
-        label: Linkedin URL
-      - type: string
-        name: Twitterhandle
-        label: Twitter handle
-      - type: boolean
-        name: draft
-        label: Draft
-      - type: boolean
-        name: featured
-        label: Featured
-      - type: number
-        name: weight
-        label: Weight
-      - type: boolean
-        name: promoted
-        label: Promoted
-      - type: enum
-        name: layout
-        options:
-          - label: team
-            value: team
   teams:
     type: page
     label: Team Overview
